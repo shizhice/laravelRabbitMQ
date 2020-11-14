@@ -1,0 +1,22 @@
+{
+    "name": "shizhice/laravel-rabbitmq",
+    "description": "RabbitMQ for Laravel Queue.",
+    "authors": [
+        {
+            "name": "史志策",
+            "email": "shizhice@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "ext-json": "*",
+        "illuminate/support": "5.7.*|5.8.*",
+        "illuminate/queue": "5.7.*|5.8.*",
+        "php-amqplib/php-amqplib": "^2.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelRabbitMQ\\": "laravelRabbitMQ/src"
+        }
+    }
+}
